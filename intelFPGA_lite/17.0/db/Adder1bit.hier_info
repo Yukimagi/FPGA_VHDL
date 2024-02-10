@@ -1,0 +1,11 @@
+|Adder1bit
+CY <= comb.DB_MAX_OUTPUT_PORT_TYPE
+SUM <= comb.DB_MAX_OUTPUT_PORT_TYPE
+A => out1.IN0
+A => out2.IN0
+B => out1.IN1
+B => out2.IN1
+CIN => out3.IN1
+CIN => comb.IN1
+
+

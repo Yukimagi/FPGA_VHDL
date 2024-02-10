@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/adder_full/adder_full.bdf
+source_file = 1, C:/intelFPGA_lite/adder_full/db/adder_full.cbx.xml
+design_name = adder_full
+instance = comp, \CY~output , CY~output, adder_full, 1
+instance = comp, \SUM~output , SUM~output, adder_full, 1
+instance = comp, \C~input , C~input, adder_full, 1
+instance = comp, \B~input , B~input, adder_full, 1
+instance = comp, \A~input , A~input, adder_full, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, adder_full, 1

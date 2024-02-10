@@ -1,0 +1,49 @@
+|FullAdd4
+sum[0] <= FullAdd:fa0.port0
+sum[1] <= FullAdd:fa1.port0
+sum[2] <= FullAdd:fa2.port0
+sum[3] <= FullAdd:fa3.port0
+carry_out <= FullAdd:fa3.port1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+carry_in => carry_in.IN1
+
+
+|FullAdd4|FullAdd:fa0
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+carryin => Add1.IN4
+
+
+|FullAdd4|FullAdd:fa1
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+carryin => Add1.IN4
+
+
+|FullAdd4|FullAdd:fa2
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+carryin => Add1.IN4
+
+
+|FullAdd4|FullAdd:fa3
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+a => Add0.IN1
+b => Add0.IN2
+carryin => Add1.IN4
+
+

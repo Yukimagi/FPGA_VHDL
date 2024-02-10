@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEC1",
+					"strict" : false
+				},
+				{
+					"name" : "SEC4",
+					"strict" : false
+				},
+				{
+					"name" : "SEC2",
+					"strict" : false
+				},
+				{
+					"name" : "SEC8",
+					"strict" : false
+				},
+				{
+					"name" : "SEC10",
+					"strict" : false
+				},
+				{
+					"name" : "SEC20",
+					"strict" : false
+				},
+				{
+					"name" : "SEC40",
+					"strict" : false
+				},
+				{
+					"name" : "MIN1",
+					"strict" : false
+				},
+				{
+					"name" : "MIN2",
+					"strict" : false
+				},
+				{
+					"name" : "MIN4",
+					"strict" : false
+				},
+				{
+					"name" : "MIN8",
+					"strict" : false
+				},
+				{
+					"name" : "MIN10",
+					"strict" : false
+				},
+				{
+					"name" : "MIN20",
+					"strict" : false
+				},
+				{
+					"name" : "MIN40",
+					"strict" : false
+				},
+				{
+					"name" : "HR1",
+					"strict" : false
+				},
+				{
+					"name" : "HR2",
+					"strict" : false
+				},
+				{
+					"name" : "HR4",
+					"strict" : false
+				},
+				{
+					"name" : "HR8",
+					"strict" : false
+				},
+				{
+					"name" : "HR10",
+					"strict" : false
+				},
+				{
+					"name" : "HR20",
+					"strict" : false
+				},
+				{
+					"name" : "HR40",
+					"strict" : false
+				},
+				{
+					"name" : "HR80",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

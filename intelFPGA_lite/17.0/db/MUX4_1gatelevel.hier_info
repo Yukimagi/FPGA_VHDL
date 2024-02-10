@@ -1,0 +1,30 @@
+|MUX4_1gatelevel
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+select[0] => select[0].IN1
+select[1] => select[1].IN1
+EN => EN.IN1
+I[0] => comb.DATAIN
+I[1] => comb.DATAIN
+I[2] => comb.DATAIN
+I[3] => comb.DATAIN
+
+
+|MUX4_1gatelevel|Decoder2_4:comb_3
+D[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+select[0] => t1.IN0
+select[0] => t3.IN0
+select[0] => t0.IN0
+select[0] => t2.IN0
+select[1] => t2.IN1
+select[1] => t3.IN1
+select[1] => t0.IN1
+select[1] => t1.IN1
+EN => comb.IN1
+EN => comb.IN1
+EN => comb.IN1
+EN => comb.IN1
+
+

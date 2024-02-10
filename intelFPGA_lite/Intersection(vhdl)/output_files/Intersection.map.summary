@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jun 09 09:20:45 2023
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : Intersection
+Top-level Entity Name : Intersection
+Family : Cyclone IV E
+Total logic elements : 72
+    Total combinational functions : 72
+    Dedicated logic registers : 36
+Total registers : 36
+Total pins : 25
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

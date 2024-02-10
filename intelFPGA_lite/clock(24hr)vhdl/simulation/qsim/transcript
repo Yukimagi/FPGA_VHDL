@@ -1,0 +1,1280 @@
+# do clock_24hr.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:52 on May 11,2023
+# vlog -work work clock_24hr.vo 
+# -- Compiling module clock_24hr
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	clock_24hr
+# End time: 13:03:52 on May 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:52 on May 11,2023
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module clock_24hr_vlg_vec_tst
+# 
+# Top level modules:
+# 	clock_24hr_vlg_vec_tst
+# End time: 13:03:52 on May 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.clock_24hr_vlg_vec_tst 
+# Start time: 13:03:52 on May 11,2023
+# Loading work.clock_24hr_vlg_vec_tst
+# Loading work.clock_24hr
+# Loading work.hard_block
+# ** Error: (vsim-3033) clock_24hr.vo(285): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(298): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(311): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(324): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(337): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(350): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(363): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(376): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(389): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(402): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(415): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(428): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(441): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(454): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(467): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(480): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(493): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(506): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(519): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(532): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(545): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(558): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(571): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(584): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(597): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(610): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(623): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(636): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(649): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(662): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(675): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(688): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(701): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(714): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(727): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(740): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(753): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(766): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(779): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(792): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(802): Instantiation of 'cycloneive_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(815): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# Loading altera_ver.dffeas
+# ** Error: (vsim-3033) clock_24hr.vo(851): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(868): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(904): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(940): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(976): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1012): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1048): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1066): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1095): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1113): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1150): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1168): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1204): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1222): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1258): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1295): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1331): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1348): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1366): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1421): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1438): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1455): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1491): Instantiation of 'cycloneive_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1504): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1521): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1557): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1593): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1629): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1665): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1682): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1718): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1735): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1771): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1788): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1824): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1841): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1877): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1894): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1930): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(1966): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2002): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2038): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2055): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2091): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2108): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2125): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2142): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2178): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2214): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2250): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2267): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2303): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2320): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2356): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2373): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2409): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2445): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2462): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2479): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2496): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2532): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2568): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2585): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2621): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2638): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2674): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2691): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2727): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2744): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2761): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2797): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2814): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2831): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2867): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2884): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2901): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2937): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2954): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2971): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(2988): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(3005): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(3022): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# ** Error: (vsim-3033) clock_24hr.vo(3039): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /clock_24hr_vlg_vec_tst/i1 File: clock_24hr.vo
+#         Searched libraries:
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/cyclonev
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/220model
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/sgate
+#             c:/intelfpga_lite/17.0/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/clock(24hr)vhdl/simulation/qsim/work
+# Error loading design
+# End time: 13:03:53 on May 11,2023, Elapsed time: 0:00:01
+# Errors: 125, Warnings: 0

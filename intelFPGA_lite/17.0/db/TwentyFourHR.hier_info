@@ -1,0 +1,263 @@
+|TwentyFourHR
+SEC1 <= COUNTER_NJKFF:inst.Q1
+CLK => COUNTER_NJKFF:inst.CLK
+SEC4 <= COUNTER_NJKFF:inst.Q4
+SEC2 <= COUNTER_NJKFF:inst.Q2
+SEC8 <= COUNTER_NJKFF:inst.Q8
+SEC10 <= mod6:inst3.Q1
+SEC20 <= mod6:inst3.Q2
+SEC40 <= mod6:inst3.Q4
+MIN1 <= COUNTER_NJKFF:inst1.Q1
+MIN2 <= COUNTER_NJKFF:inst1.Q2
+MIN4 <= COUNTER_NJKFF:inst1.Q4
+MIN8 <= COUNTER_NJKFF:inst1.Q8
+MIN10 <= mod6:inst4.Q1
+MIN20 <= mod6:inst4.Q2
+MIN40 <= mod6:inst4.Q4
+HR1 <= mod24:inst2.Q1
+HR2 <= mod24:inst2.Q2
+HR4 <= mod24:inst2.Q4
+HR8 <= mod24:inst2.Q8
+HR10 <= mod24:inst2.Q1-1
+HR20 <= mod24:inst2.Q2-1
+HR40 <= mod24:inst2.Q4-1
+HR80 <= mod24:inst2.Q8-1
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst3
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+
+
+|TwentyFourHR|mod6:inst3|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst3|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst3|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst3|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst1
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst1|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst1|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst1|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|COUNTER_NJKFF:inst1|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst4
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+
+
+|TwentyFourHR|mod6:inst4|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst4|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst4|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod6:inst4|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+CLK3 => NJKKFF:inst4.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+Q1-1 <= NJKKFF:inst4.1Q
+Q2-1 <= NJKKFF:inst10.1Q
+Q4-1 <= NJKKFF:inst11.1Q
+Q8-1 <= NJKKFF:inst12.1Q
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst10
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst4
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst11
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|TwentyFourHR|mod24:inst2|NJKKFF:inst12
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+

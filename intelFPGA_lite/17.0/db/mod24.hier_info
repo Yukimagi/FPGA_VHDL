@@ -1,0 +1,76 @@
+|mod24
+Q1 <= NJKKFF:inst.1Q
+CLK => NJKKFF:inst.1CLKN
+Q2 <= NJKKFF:inst6.1Q
+Q4 <= NJKKFF:inst7.1Q
+Q8 <= NJKKFF:inst8.1Q
+t1 <= NJKKFF:inst4.1Q
+t2 <= NJKKFF:inst10.1Q
+t4 <= NJKKFF:inst11.1Q
+t8 <= NJKKFF:inst12.1Q
+
+
+|mod24|NJKKFF:inst
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst10
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst4
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst8
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst7
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst6
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst11
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+
+|mod24|NJKKFF:inst12
+1Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => inst.ACLR
+1K => inst.IN0
+1J => inst.IN1
+1CLKN => inst1.IN0
+
+

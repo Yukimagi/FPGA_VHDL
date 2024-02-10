@@ -1,0 +1,14 @@
+module MUX4_1gatelevel(Y,select,EN,I);//宣告不能用bus
+	output Y;
+	input EN;
+	input[1:0]select;
+	input[3:0]I;
+	tri Y;//因為多個輸入對應一個輸出
+	wire[3:0]D;
+	Decoder2_4(D,select[1:0],EN);
+	bufif1(Y,I[0],D[0]),(Y,I[0],D[0]),(Y,I[0],D[0]),(Y,I[0],D[0]);
+	endmodule
+	
+	
+	
+	

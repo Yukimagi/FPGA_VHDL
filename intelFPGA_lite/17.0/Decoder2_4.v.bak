@@ -1,0 +1,16 @@
+module Decoder2_4(D,select,EN);//宣告不能用bus
+	output D[3:0];
+	input EN,select[1:0];
+	not(select[0]BAR,select[0]);
+	not(select[1]BAR,select[1]);
+	
+	and(t0,select[0]BAR,select[1]BAR);
+	and(t1,select[0],select[1]BAR);
+	and(t2,select[0],select[1]BAR);
+	and(t3,select[0],select[1]);
+	
+	and(D[0],t0,EN);
+	and(D[1],t1,EN);
+	and(D[2],t2,EN);
+	and(D[3],t3,EN);
+	endmodule

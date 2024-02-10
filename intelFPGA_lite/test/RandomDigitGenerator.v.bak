@@ -1,0 +1,33 @@
+module RandomDigitGenerator(
+  input wire clk,
+  input wire reset,
+  output reg [1:0] rand_num
+);
+
+  reg [1:0] seed;
+  reg [1:0] lfsr;
+  wire feedback;
+  
+  assign feedback = lfsr[0] ^ lfsr[1];
+  
+  always @(posedge clk or posedge reset) begin
+    if (reset) begin
+      seed <= 2'b01; // 初始種子值
+      lfsr <= seed;
+    end else begin
+      lfsr <= {lfsr[0], feedback};
+    end
+  end
+  
+  always @(posedge clk) begin
+    if (lfsr[1:0] == 2'b00)
+      rand_num <= 2'b00;
+    else if (lfsr[1:0] == 2'b01)
+      rand_num <= 2'b01;
+    else if (lfsr[1:0] == 2'b10)
+      rand_num <= 2'b10;
+    else
+      rand_num <= 2'b11;
+  end
+
+endmodule

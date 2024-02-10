@@ -1,0 +1,17 @@
+|bcd_decoder
+select[0] => ~NO_FANOUT~
+select[1] => ~NO_FANOUT~
+select[2] => ~NO_FANOUT~
+cntin[0] => Decoder0.IN3
+cntin[1] => Decoder0.IN2
+cntin[2] => Decoder0.IN1
+cntin[3] => Decoder0.IN0
+bcdout[0] <= bcdout.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+bcdout[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

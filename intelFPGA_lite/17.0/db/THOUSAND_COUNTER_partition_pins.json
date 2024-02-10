@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q1",
+					"strict" : false
+				},
+				{
+					"name" : "Q2",
+					"strict" : false
+				},
+				{
+					"name" : "Q4",
+					"strict" : false
+				},
+				{
+					"name" : "Q8",
+					"strict" : false
+				},
+				{
+					"name" : "Q16",
+					"strict" : false
+				},
+				{
+					"name" : "Q32",
+					"strict" : false
+				},
+				{
+					"name" : "Q64",
+					"strict" : false
+				},
+				{
+					"name" : "Q128",
+					"strict" : false
+				},
+				{
+					"name" : "Q256",
+					"strict" : false
+				},
+				{
+					"name" : "Q512",
+					"strict" : false
+				},
+				{
+					"name" : "Q1024",
+					"strict" : false
+				},
+				{
+					"name" : "Q2048",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

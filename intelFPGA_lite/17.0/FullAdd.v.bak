@@ -1,0 +1,7 @@
+//FullAdd.v
+module FullAdd(sum,carryout,a,b,carryin);
+input a,b,carryin;
+output sum,carryout;
+wire sum,carryout;
+assign{carryout,sum}=a+b+carryin;
+endmodule

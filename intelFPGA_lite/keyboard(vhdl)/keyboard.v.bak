@@ -1,0 +1,158 @@
+module keyboard (
+    input wire clk,
+    input wire [3:0] keypad_rows,
+    output wire [3:0] keypad_cols,
+    output wire [6:0] seg
+);
+
+reg [3:0] keypad_rows_reg;
+reg [3:0] keypad_cols_reg;
+reg [3:0] last_key;
+reg [3:0] current_key;
+reg [3:0] seg;
+//reg [3:0] last_displayed_key;
+reg [3:0] key_state;
+
+parameter IDLE = 3'b000;//0
+parameter SCAN_COLUMN0 = 3'b001;//1
+parameter SCAN_COLUMN1 = 3'b010;//2
+parameter SCAN_COLUMN2 = 3'b011;//3
+parameter SCAN_COLUMN3 = 3'b100;//4
+parameter WAIT_RELEASE = 3'b101;//5
+
+// 按鍵與七段式顯示器的映射關係
+
+//localparam [15:0] segment_to_display_map = 16'b1111_1110_0000_0000;
+
+// 輸出至七段式顯示器的訊號
+//wire [6:0] seven_segment_output = segment_to_display_map[seven_segment_data];
+
+// 按鍵與七段式顯示器的映射
+always @(current_key) begin
+    case (current_key)
+		  4'b0000: seg = 8'b00111111;//dp->g->a
+		  4'b0001: seg = 8'b00000110;
+		  4'b0010: seg = 8'b01011011;
+		  4'b0011: seg = 8'b01001111;
+		  4'b0100: seg = 8'b01100110;
+		  4'b0101: seg = 8'b01101101;
+		  4'b0110: seg = 8'b01111101;
+		  4'b0111: seg = 8'b00000111;
+		  4'b1000: seg = 8'b01111111;
+		  4'b1001: seg = 8'b01101111;
+		  4'b1010: seg = 8'b01110111;
+		  4'b1011: seg = 8'b01111100;
+		  4'b1100: seg = 8'b00111001;
+		  4'b1101: seg = 8'b01011110;
+        4'b1110: seg = 8'b01111001; // 按鍵E對應的數字或文字
+        4'b1111: seg = 8'b01110001; // 按鍵F對應的數字或文字
+        default: seg = 8'b11111111; // 預設為不顯示
+    endcase
+end
+
+// 按鍵狀態機邏輯
+always @(posedge clk) begin
+    case (key_state)
+        IDLE: begin
+            if (keypad_rows_reg != 4'b1111) begin
+                keypad_rows_reg <= keypad_rows;
+                key_state <= SCAN_COLUMN0;
+            end
+        end
+
+        SCAN_COLUMN0: begin
+            keypad_cols_reg <= 4'b1110;
+            if (keypad_rows_reg != 4'b1111) begin
+                last_key <= {keypad_cols_reg[3], keypad_rows_reg};
+                key_state <= WAIT_RELEASE;
+            end else begin
+                key_state <= SCAN_COLUMN1;
+            end
+        end
+
+        SCAN_COLUMN1: begin
+            keypad_cols_reg <= 4'b1101;
+            if (keypad_rows_reg != 4'b1111) begin
+                last_key <= {keypad_cols_reg[3], keypad_rows_reg};
+                key_state <= WAIT_RELEASE;
+            end else begin
+                key_state <= SCAN_COLUMN2;
+            end
+        end
+
+        SCAN_COLUMN2: begin
+            keypad_cols_reg <= 4'b1011;
+            if (keypad_rows_reg != 4'b1111) begin
+                last_key <= {keypad_cols_reg[3], keypad_rows_reg};
+                key_state<= WAIT_RELEASE;
+            end else begin
+                key_state <= SCAN_COLUMN3;
+            end
+        end
+
+        SCAN_COLUMN3: begin
+            keypad_cols_reg <= 4'b0111;
+            if (keypad_rows_reg != 4'b1111) begin
+                last_key <= {keypad_cols_reg[3], keypad_rows_reg};
+                key_state <= WAIT_RELEASE;
+            end else begin
+                key_state <= IDLE;
+            end
+        end
+
+        WAIT_RELEASE: begin
+            keypad_cols_reg <= keypad_cols;
+            if (keypad_rows_reg == 4'b1111) begin
+                key_state <= IDLE;
+            end
+        end
+    endcase
+end
+
+// 讀取按鍵狀態和顯示
+always @(posedge clk) begin
+    if (key_state == IDLE) begin
+        current_key <= 4'b0000;
+        //seven_segment_display <= seven_segment_output;
+    end else begin
+        current_key <= last_key;
+        //seven_segment_display <= seven_segment_output;
+    end
+end
+
+// 更新按鍵列的值
+always @(posedge clk) begin
+    if (key_state == IDLE) begin
+        keypad_rows_reg <= ~(&keypad_rows);
+    end else begin
+        keypad_rows_reg <= keypad_rows;
+    end
+end
+
+// 更新按鍵行的值
+always @(posedge clk) begin
+    case (key_state)
+        IDLE: begin
+            keypad_cols <= 4'b0000;
+        end
+
+        SCAN_COLUMN0: begin
+            keypad_cols <= 4'b1110;
+        end
+
+        SCAN_COLUMN1: begin
+            keypad_cols <= 4'b1101;
+        end
+		  SCAN_COLUMN2: begin
+            keypad_cols <= 4'b1011;
+        end
+		  SCAN_COLUMN3: begin
+            keypad_cols <= 4'b0111;
+        end
+
+        WAIT_RELEASE: begin
+            keypad_cols <= keypad_cols_reg;
+        end
+    endcase
+end
+endmodule

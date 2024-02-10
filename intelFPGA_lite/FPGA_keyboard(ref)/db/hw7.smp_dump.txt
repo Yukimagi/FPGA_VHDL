@@ -1,0 +1,19 @@
+
+State Machine - |hw7|mul_out
+Name mul_out.1111 mul_out.1110 mul_out.1101 mul_out.1100 mul_out.1011 mul_out.1010 mul_out.1001 mul_out.1000 mul_out.0111 mul_out.0110 mul_out.0101 mul_out.0100 mul_out.0011 mul_out.0010 mul_out.0001 mul_out.0000 
+mul_out.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mul_out.0001 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+mul_out.0010 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+mul_out.0011 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+mul_out.0100 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+mul_out.0101 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+mul_out.0110 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+mul_out.0111 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+mul_out.1000 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+mul_out.1001 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+mul_out.1010 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+mul_out.1011 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+mul_out.1100 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+mul_out.1101 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+mul_out.1110 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+mul_out.1111 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

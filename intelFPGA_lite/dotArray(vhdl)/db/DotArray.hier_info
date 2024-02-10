@@ -1,0 +1,40 @@
+|DotArray
+clk => cdount[0].CLK
+clk => cdount[1].CLK
+clk => cdount[2].CLK
+clk => cdount[3].CLK
+clk => S[0].CLK
+clk => S[1].CLK
+clk => S[2].CLK
+clk => S[3].CLK
+clk => dount[0].CLK
+clk => dount[1].CLK
+clk => dount[2].CLK
+clk => dount[3].CLK
+clk => dount[4].CLK
+clk => dount[5].CLK
+clk => dount[6].CLK
+clk => dount[7].CLK
+clk => dount[8].CLK
+keyc[0] <= cdount[0].DB_MAX_OUTPUT_PORT_TYPE
+keyc[1] <= cdount[1].DB_MAX_OUTPUT_PORT_TYPE
+keyc[2] <= cdount[2].DB_MAX_OUTPUT_PORT_TYPE
+keyc[3] <= cdount[3].DB_MAX_OUTPUT_PORT_TYPE
+keyr[0] <= keyr[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[1] <= keyr[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[2] <= keyr[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[3] <= keyr[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[4] <= keyr[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[5] <= keyr[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[6] <= keyr[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[7] <= keyr[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[8] <= keyr[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[9] <= keyr[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[10] <= keyr[10]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[11] <= keyr[11]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[12] <= keyr[12]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[13] <= keyr[13]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[14] <= keyr[14]$latch.DB_MAX_OUTPUT_PORT_TYPE
+keyr[15] <= keyr[15]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

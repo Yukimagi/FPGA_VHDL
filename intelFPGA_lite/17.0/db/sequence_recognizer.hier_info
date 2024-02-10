@@ -1,0 +1,12 @@
+|sequence_recognizer
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst.CLK
+clock => inst1.CLK
+clock => inst2.CLK
+X => inst19.IN0
+X => inst14.IN0
+X => inst29.IN1
+X => inst26.IN0
+X => inst28.IN2
+
+

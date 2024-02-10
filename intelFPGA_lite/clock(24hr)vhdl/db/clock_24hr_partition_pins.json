@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mul_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mul_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mul_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mul_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "h_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "h_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "h_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "h_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "h_4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "h_4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "h_4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "h_4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "m_10[0]",
+					"strict" : false
+				},
+				{
+					"name" : "m_10[1]",
+					"strict" : false
+				},
+				{
+					"name" : "m_10[2]",
+					"strict" : false
+				},
+				{
+					"name" : "m_10[3]",
+					"strict" : false
+				},
+				{
+					"name" : "m_6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "m_6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "m_6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "m_6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count_10[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count_10[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_10[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_10[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count_6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count_6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count_6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count_6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

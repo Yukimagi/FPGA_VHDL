@@ -1,0 +1,325 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -3.155
+TNS   : -3.155
+
+Type  : Slow 1100mV 85C Model Setup 'NJKKFF:inst|inst'
+Slack : -2.295
+TNS   : -2.295
+
+Type  : Slow 1100mV 85C Model Setup 'NJKKFF:inst6|inst'
+Slack : -2.152
+TNS   : -2.152
+
+Type  : Slow 1100mV 85C Model Setup 'NJKKFF:inst7|inst'
+Slack : -1.136
+TNS   : -2.266
+
+Type  : Slow 1100mV 85C Model Hold 'NJKKFF:inst7|inst'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'NJKKFF:inst6|inst'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'NJKKFF:inst|inst'
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : 0.920
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'NJKKFF:inst|inst'
+Slack : -5.528
+TNS   : -5.528
+
+Type  : Slow 1100mV 85C Model Recovery 'CLK'
+Slack : -3.143
+TNS   : -3.143
+
+Type  : Slow 1100mV 85C Model Recovery 'NJKKFF:inst7|inst'
+Slack : -3.128
+TNS   : -6.252
+
+Type  : Slow 1100mV 85C Model Recovery 'NJKKFF:inst6|inst'
+Slack : -3.003
+TNS   : -3.003
+
+Type  : Slow 1100mV 85C Model Removal 'CLK'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'NJKKFF:inst6|inst'
+Slack : 1.456
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'NJKKFF:inst7|inst'
+Slack : 1.865
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'NJKKFF:inst|inst'
+Slack : 3.709
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst7|inst'
+Slack : -0.724
+TNS   : -2.569
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst|inst'
+Slack : -0.724
+TNS   : -1.283
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -1.225
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst6|inst'
+Slack : -0.724
+TNS   : -1.199
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -2.721
+TNS   : -2.721
+
+Type  : Slow 1100mV 0C Model Setup 'NJKKFF:inst|inst'
+Slack : -2.372
+TNS   : -2.372
+
+Type  : Slow 1100mV 0C Model Setup 'NJKKFF:inst6|inst'
+Slack : -2.164
+TNS   : -2.164
+
+Type  : Slow 1100mV 0C Model Setup 'NJKKFF:inst7|inst'
+Slack : -1.009
+TNS   : -2.012
+
+Type  : Slow 1100mV 0C Model Hold 'NJKKFF:inst7|inst'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : 0.577
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'NJKKFF:inst6|inst'
+Slack : 0.582
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'NJKKFF:inst|inst'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'NJKKFF:inst|inst'
+Slack : -5.286
+TNS   : -5.286
+
+Type  : Slow 1100mV 0C Model Recovery 'NJKKFF:inst7|inst'
+Slack : -2.915
+TNS   : -5.826
+
+Type  : Slow 1100mV 0C Model Recovery 'CLK'
+Slack : -2.794
+TNS   : -2.794
+
+Type  : Slow 1100mV 0C Model Recovery 'NJKKFF:inst6|inst'
+Slack : -2.709
+TNS   : -2.709
+
+Type  : Slow 1100mV 0C Model Removal 'CLK'
+Slack : 0.771
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'NJKKFF:inst6|inst'
+Slack : 1.439
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'NJKKFF:inst7|inst'
+Slack : 1.853
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'NJKKFF:inst|inst'
+Slack : 3.477
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst7|inst'
+Slack : -0.724
+TNS   : -2.368
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst|inst'
+Slack : -0.724
+TNS   : -1.181
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst6|inst'
+Slack : -0.724
+TNS   : -1.110
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -1.107
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -1.459
+TNS   : -1.459
+
+Type  : Fast 1100mV 85C Model Setup 'NJKKFF:inst|inst'
+Slack : -0.819
+TNS   : -0.819
+
+Type  : Fast 1100mV 85C Model Setup 'NJKKFF:inst6|inst'
+Slack : -0.764
+TNS   : -0.764
+
+Type  : Fast 1100mV 85C Model Setup 'NJKKFF:inst7|inst'
+Slack : -0.076
+TNS   : -0.151
+
+Type  : Fast 1100mV 85C Model Hold 'NJKKFF:inst6|inst'
+Slack : -0.022
+TNS   : -0.022
+
+Type  : Fast 1100mV 85C Model Hold 'NJKKFF:inst|inst'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'NJKKFF:inst7|inst'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'NJKKFF:inst|inst'
+Slack : -2.559
+TNS   : -2.559
+
+Type  : Fast 1100mV 85C Model Recovery 'NJKKFF:inst7|inst'
+Slack : -1.291
+TNS   : -2.582
+
+Type  : Fast 1100mV 85C Model Recovery 'NJKKFF:inst6|inst'
+Slack : -1.226
+TNS   : -1.226
+
+Type  : Fast 1100mV 85C Model Recovery 'CLK'
+Slack : -1.212
+TNS   : -1.212
+
+Type  : Fast 1100mV 85C Model Removal 'CLK'
+Slack : -0.037
+TNS   : -0.037
+
+Type  : Fast 1100mV 85C Model Removal 'NJKKFF:inst6|inst'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'NJKKFF:inst7|inst'
+Slack : 0.843
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'NJKKFF:inst|inst'
+Slack : 1.331
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.169
+TNS   : -0.169
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst7|inst'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst|inst'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'NJKKFF:inst6|inst'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -1.073
+TNS   : -1.073
+
+Type  : Fast 1100mV 0C Model Setup 'NJKKFF:inst|inst'
+Slack : -0.765
+TNS   : -0.765
+
+Type  : Fast 1100mV 0C Model Setup 'NJKKFF:inst6|inst'
+Slack : -0.709
+TNS   : -0.709
+
+Type  : Fast 1100mV 0C Model Setup 'NJKKFF:inst7|inst'
+Slack : -0.023
+TNS   : -0.044
+
+Type  : Fast 1100mV 0C Model Hold 'NJKKFF:inst6|inst'
+Slack : -0.036
+TNS   : -0.036
+
+Type  : Fast 1100mV 0C Model Hold 'NJKKFF:inst|inst'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'NJKKFF:inst7|inst'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'NJKKFF:inst|inst'
+Slack : -2.156
+TNS   : -2.156
+
+Type  : Fast 1100mV 0C Model Recovery 'NJKKFF:inst7|inst'
+Slack : -1.115
+TNS   : -2.229
+
+Type  : Fast 1100mV 0C Model Recovery 'NJKKFF:inst6|inst'
+Slack : -1.047
+TNS   : -1.047
+
+Type  : Fast 1100mV 0C Model Recovery 'CLK'
+Slack : -0.798
+TNS   : -0.798
+
+Type  : Fast 1100mV 0C Model Removal 'CLK'
+Slack : -0.239
+TNS   : -0.239
+
+Type  : Fast 1100mV 0C Model Removal 'NJKKFF:inst6|inst'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'NJKKFF:inst7|inst'
+Slack : 0.759
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'NJKKFF:inst|inst'
+Slack : 1.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.210
+TNS   : -0.210
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst7|inst'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst|inst'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'NJKKFF:inst6|inst'
+Slack : 0.161
+TNS   : 0.000
+
+------------------------------------------------------------

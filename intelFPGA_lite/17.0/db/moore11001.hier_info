@@ -1,0 +1,12 @@
+|moore11001
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+CLK => state~1.DATAIN
+RESET => state~3.DATAIN
+in => Selector1.IN2
+in => next_state.F.DATAB
+in => Selector2.IN1
+in => Selector0.IN1
+in => next_state.D.DATAB
+in => next_state.E.DATAB
+
+

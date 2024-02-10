@@ -1,0 +1,38 @@
+module RandomDigitGenerator(
+  input wire clk,
+  input wire reset,
+  output wire [3:0] rand_digit
+);
+
+  reg [15:0] seed;
+  reg [3:0] lfsr;
+  wire feedback;
+
+  assign feedback = lfsr[0] ^ lfsr[2] ^ lfsr[3] ^ lfsr[5];
+  
+  always @(posedge clk or posedge reset) begin
+    if (reset) begin
+      seed <= 16'd1; // 初始種子值
+      lfsr <= seed;
+    end else begin
+      lfsr <= {lfsr[14:0], feedback};
+    end
+  end
+  
+  always @(*) begin
+    case (lfsr[3:0])
+      4'd0: rand_digit = 4'd0;
+      4'd1: rand_digit = 4'd1;
+      4'd2: rand_digit = 4'd2;
+      4'd3: rand_digit = 4'd3;
+      4'd4: rand_digit = 4'd4;
+      4'd5: rand_digit = 4'd5;
+      4'd6: rand_digit = 4'd6;
+      4'd7: rand_digit = 4'd7;
+      4'd8: rand_digit = 4'd8;
+      4'd9: rand_digit = 4'd9;
+      default: rand_digit = 4'd0; // 當隨機數超出0到9之間時，預設為0
+    endcase
+  end
+  
+endmodule

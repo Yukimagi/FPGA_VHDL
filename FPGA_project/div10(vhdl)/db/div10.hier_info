@@ -1,0 +1,15 @@
+|div10
+clk_1 << clk_1.DB_MAX_OUTPUT_PORT_TYPE
+clk_10 << cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+clk => clk_1.IN0
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+rst => clk_1.IN1
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+
+

@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'decoder:d_out|out2[1]'
+Slack : -8.885
+TNS   : -70.099
+
+Type  : Slow 1200mV 85C Model Setup 'Finger_Dance:dance|num[0]'
+Slack : -8.455
+TNS   : -31.366
+
+Type  : Slow 1200mV 85C Model Setup 'Finger_Dance:dance|S[1]'
+Slack : -5.840
+TNS   : -72.142
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.332
+TNS   : -48.031
+
+Type  : Slow 1200mV 85C Model Hold 'Finger_Dance:dance|num[0]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'decoder:d_out|out2[1]'
+Slack : 0.572
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Finger_Dance:dance|S[1]'
+Slack : 0.692
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -50.584
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Finger_Dance:dance|num[0]'
+Slack : -0.285
+TNS   : -5.517
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Finger_Dance:dance|S[1]'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'decoder:d_out|out2[1]'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'decoder:d_out|out2[1]'
+Slack : -8.370
+TNS   : -65.266
+
+Type  : Slow 1200mV 0C Model Setup 'Finger_Dance:dance|num[0]'
+Slack : -8.025
+TNS   : -29.464
+
+Type  : Slow 1200mV 0C Model Setup 'Finger_Dance:dance|S[1]'
+Slack : -5.602
+TNS   : -68.702
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.098
+TNS   : -42.348
+
+Type  : Slow 1200mV 0C Model Hold 'Finger_Dance:dance|num[0]'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Finger_Dance:dance|S[1]'
+Slack : 0.600
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'decoder:d_out|out2[1]'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -50.584
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Finger_Dance:dance|num[0]'
+Slack : -0.373
+TNS   : -5.763
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Finger_Dance:dance|S[1]'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'decoder:d_out|out2[1]'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'decoder:d_out|out2[1]'
+Slack : -3.896
+TNS   : -28.273
+
+Type  : Fast 1200mV 0C Model Setup 'Finger_Dance:dance|num[0]'
+Slack : -3.709
+TNS   : -13.088
+
+Type  : Fast 1200mV 0C Model Setup 'Finger_Dance:dance|S[1]'
+Slack : -1.918
+TNS   : -22.917
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.003
+TNS   : -6.646
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Finger_Dance:dance|num[0]'
+Slack : 0.049
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Finger_Dance:dance|S[1]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'decoder:d_out|out2[1]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -36.403
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Finger_Dance:dance|num[0]'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'decoder:d_out|out2[1]'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Finger_Dance:dance|S[1]'
+Slack : 0.433
+TNS   : 0.000
+
+------------------------------------------------------------

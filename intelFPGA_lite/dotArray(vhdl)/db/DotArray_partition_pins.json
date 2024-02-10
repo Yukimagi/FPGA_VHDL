@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "keyc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keyc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keyc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keyc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "keyr[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

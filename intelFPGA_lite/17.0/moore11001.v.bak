@@ -1,0 +1,59 @@
+module moore11001
+(input clk, rst, inp,
+output reg outp);
+
+reg [2:0] state;
+parameter S0=0, S1=1, S2=2, S3=3,S4=4;
+///next state logic
+always @(posedge clk, posedge rst)
+if(rst==1)
+state<=S0;
+else
+case(state)
+
+S0: if(inp)
+state<=S1;
+else
+state<=S0;
+
+S1: if(inp)
+state<=S1;
+else
+state<=S2;
+
+S2: if(inp)
+state<=S3;
+else
+state<=S0;
+
+S3: if(inp)
+state<=S4;
+else
+state<=S1;
+
+S4: if(inp)
+state<=S0;
+else
+state<=S2;
+endcase
+
+///output logic
+always @(state)
+case(state)
+
+Advertisements
+
+REPORT THIS AD
+
+S0:
+outp<=0;
+S1:
+outp<=0;
+S2:
+outp<=0;
+S3:
+outp<=0;
+S4:
+outp<=1;
+endcase
+endmodule

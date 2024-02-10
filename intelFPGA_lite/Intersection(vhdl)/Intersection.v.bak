@@ -1,0 +1,79 @@
+module Intersection(
+    input wire CLK,
+    input wire Reset,
+    output reg [11:0] LED,
+    output reg [15:0] SEG
+);
+
+reg [3:0] timer;
+reg direction;
+reg [1:0] state;
+reg [4:0] count;
+
+always @(posedge CLK) begin
+    if (Reset) begin
+        timer <= 4'b0000;
+        state <= 2'b00;
+        count <= 5'b00000;
+        direction <= 1'b0;
+    end else begin
+        case (state)
+            2'b00: begin
+                LED[2:0] <= 3'b100; // 設置東西向紅燈
+                LED[11:9] <= 3'b001; // 設置南北向綠燈
+                if (count == 0) begin
+                    state <= 2'b01;
+                    count <= 5'b10011; // 倒數20秒
+                    direction <= 1'b0; // 東西向
+                end else begin
+                    count <= count - 1;
+                end
+            end
+            2'b01: begin
+                LED[2:0] <= 3'b010; // 設置東西向黃燈
+                if (count == 0) begin
+                    state <= 2'b10;
+                    count <= 5'b00001; // 倒數2秒
+                    direction <= 1'b1; // 南北向
+                end else begin
+                    count <= count - 1;
+                end
+            end
+            2'b10: begin
+                LED[2:0] <= 3'b001; // 設置東西向綠燈
+                LED[11:9] <= 3'b100; // 設置南北向紅燈
+                if (count == 0) begin
+                    state <= 2'b11;
+                    count <= 5'b10011; // 倒數20秒
+                    direction <= 1'b1; // 南北向
+                end else begin
+                    count <= count - 1;
+                end
+            end
+            2'b11: begin
+                LED[2:0] <= 3'b010; // 設置東西向黃燈
+                if (count == 0) begin
+                    state <= 2'b00;
+                    count <= 5'b00001; // 倒數2秒
+                    direction <= 1'b0; // 東西向
+                end else begin
+                    count <= count - 1;
+                end
+            end
+            default: begin
+                state <= 2'b00;
+                count <= 5'b00000;
+                direction <= 1'b0;
+            end
+        endcase
+    end
+end
+
+always @(timer) begin
+    SEG[3:0] = timer[3];
+    SEG[7:4] = timer[2];
+    SEG[11:8] = timer[1];
+    SEG[15:12] = timer[0];
+end
+
+endmodule

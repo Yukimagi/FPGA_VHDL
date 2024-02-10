@@ -1,0 +1,105 @@
+|bcd_adder
+S0 <= adder_full:inst21.SUM
+Cin => gdfx_temp0.IN0
+A0 => adder_full:inst31.A
+B0 => adder_full:inst31.B
+S1 <= adder_full:inst22.SUM
+A1 => adder_full:inst32.A
+B1 => adder_full:inst32.B
+A3 => adder_full:inst34.A
+B3 => adder_full:inst34.B
+A2 => adder_full:inst33.A
+B2 => adder_full:inst33.B
+S2 <= adder_full:inst23.SUM
+S3 <= adder_full:inst24.SUM
+Cy <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst21
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst31
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst22
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst32
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst34
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst33
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst23
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_adder|adder_full:inst24
+CY <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst1.IN0
+B => inst4.IN1
+B => inst1.IN1
+C => inst2.IN1
+C => inst3.IN1
+SUM <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

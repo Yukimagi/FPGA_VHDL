@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jun 09 09:20:55 2023
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : Intersection
+Top-level Entity Name : Intersection
+Family : Cyclone IV E
+Device : EP4CE40F23C8
+Timing Models : Final
+Total logic elements : 72 / 39,600 ( < 1 % )
+    Total combinational functions : 72 / 39,600 ( < 1 % )
+    Dedicated logic registers : 36 / 39,600 ( < 1 % )
+Total registers : 36
+Total pins : 25 / 329 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,161,216 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 232 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

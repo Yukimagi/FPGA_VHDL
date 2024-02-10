@@ -1,0 +1,12 @@
+
+State Machine - |Intersection|count_10
+Name count_10.0000 
+count_10.0001 0 
+count_10.0000 1 
+
+State Machine - |Intersection|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 

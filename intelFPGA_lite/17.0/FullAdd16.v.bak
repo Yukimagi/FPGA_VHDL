@@ -1,0 +1,13 @@
+//already have FullAdd4 at 17.0 file,so can directly use
+module FullAdd16(sum,carry_out,a,b,carry_in);
+input [15:0]a,b;
+input carry_in;
+output[15:0]sum;
+output carry_out;
+wire [15:0]sum;
+wire carry_out;
+FullAdd4 fa0(sum[3:0],carry_out1,a[3:0],b[3:0],carry_in);
+FullAdd4 fa1(sum[7:4],carry_out2,a[7:4],b[7:4],carry_out1);
+FullAdd4 fa2(sum[11:8],carry_out3,a[11:8],b[11:8],carry_out2);
+FullAdd4 fa3(sum[15:12],carry_out,a[15:12],b[15:12],carry_out3);
+endmodule

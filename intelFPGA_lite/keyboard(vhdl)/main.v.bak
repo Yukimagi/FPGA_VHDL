@@ -1,0 +1,11 @@
+module main(
+	input CLK,
+	input[3:0] rows, 
+	output[3:0] cols,
+	output[0:7] seg,
+	output isBtnDown
+);
+	wire[3:0] out;
+	keyboard k1(CLK,rows,cols,out,isBtnDown);
+	decoder d1(out,seg);
+endmodule 
